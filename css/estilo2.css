@@ -1,0 +1,240 @@
+@media screen and (max-width: 1023px) {
+  .footer h5, p{
+    font-size: 0.6em;
+    color: #FFC300 ;
+    text-align:center;
+    }
+    .box20 .title{font-size:9px !important}
+    #hot-title{display:none}
+    .img-fluid-1{display:none}
+    .img-fluid-2{display:none}
+    .img-fluid-3{display:none}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1359px) {
+  .footer h5, p{
+    font-size: 0.8em;
+    color: #FFC300 ;
+    text-align:center;
+    }
+    .box20 .title{font-size:10px !important}
+    .img-fluid-2{display:none}
+    .img-fluid-3{display:none}
+}
+
+@media screen and (min-width: 1360px) and (max-width: 1600px) {
+  .footer h5, p{
+    font-size: 0.8em;
+    color: #FFC300 ;
+    text-align:center;
+    }
+    .box20 .title{font-size:12px !important}
+    .img-fluid-3{display:none}
+}
+
+@media screen and (min-width: 1601px) and (max-width: 1919px) {
+  .footer h5, p{
+    font-size: 0.9em;
+    color: #FFC300 ;
+    text-align:center;
+    }
+    .box20 .title{font-size:13px !important}
+}
+
+body
+{	
+    background-image: linear-gradient(to top, #372a1e 0%,  #7a3c01 100%);
+	background-attachment: fixed;
+    background-repeat: no-repeat;
+	background-position: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+  color: #ffffff;
+}
+
+#h3{
+    color:#ffffff !important;
+}
+
+.need-space{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.noFocus,.noFocus:focus,.noFocus:active {
+    outline: none !important;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 350px;    /* Footer height */
+}
+
+.col-md-1-5 { width: 160px !important; }
+
+/*===========================================================================================*/
+
+.box20{overflow:hidden}
+.box20{box-shadow:0 0 4px #252525}
+.box20 .post,.box20 .title{text-transform:capitalize}
+.box20{position:relative}
+.box20:after,.box20:before{position:absolute;content:""}
+.box20:before{width:112.5%;height:1000%;background-color:rgba(105,15,138,.6);top:-50%;left:-100%;z-index:1;transform:rotate(55deg);transform-origin:center top 0;transition:all .4s ease 0s}
+.box20:hover:before{left:20%}
+.box20:after{width:55%;height:100%;background-color:rgba(0,0,0,.6);bottom:-1000%;left:53%;transform:rotate(-35deg);transform-origin:center bottom 0;transition:all .6s ease 0s}
+.box20 .box-content,.box20 .icon{width:100%;padding:0px 10px;position:absolute;left:0;z-index:2;transition:all 1s ease 0s}
+.box20:hover:after{bottom:-70%}
+.box20 img{width:100%;height:auto}
+.box20 .box-content{top:-100%;color:#fff}
+.box20:hover .box-content{top:10px}
+.box20 .title{font-size:14px;margin:0}
+.box20 .icon li a,.box20 .post{display:inline-block;font-size:14px}
+.box20 .post{margin-top:5px}
+.box20 .icon{list-style:none;margin:0;bottom:-100%}
+.box20:hover .icon{bottom:25px}
+.box20 .icon li{display:inline-block}
+.box20 .icon li a{width:35px;height:35px;line-height:35px;background:#673692;border-radius:50%;margin:0 3px;color:#d3a100;text-align:center;transition:all .5s ease 0s}
+.box20 .icon li a:hover{background:#d3a100;color:#673692}
+
+/*===========================================================================================*/
+/* adds some margin below the link sets  */
+.navbar .dropdown-menu div[class*="col"] {
+   margin-bottom:1rem;
+}
+
+.navbar .dropdown-menu {
+  border:none;
+  background-color:#8f5927!important;
+}
+  
+  /* remove the padding from the navbar so the dropdown hover state is not broken */
+.navbar {
+    background-color: #ee8016;
+    padding-top:0px;
+    padding-bottom:0px;
+}
+
+/* remove the padding from the nav-item and add some margin to give some breathing room on hovers */
+.navbar .nav-item {
+  padding:.5rem .5rem;
+  margin:0 .25rem;
+}
+
+/* makes the dropdown full width  */
+.navbar .dropdown {position:static;}
+
+.navbar .dropdown-menu {
+  width:100%;
+  left:0;
+  right:0;
+/*  height of nav-item  */
+  top:45px;
+}
+  
+  /* shows the dropdown menu on hover */
+.navbar .dropdown:hover .dropdown-menu, .navbar .dropdown .dropdown-menu:hover {
+  display:block!important;
+}
+  
+  .navbar .dropdown-menu {
+  	border-top: 9.5px solid rgba(0,0,0,0);
+    border-left: 1px solid rgba(0,0,0,.15);
+    border-right: 1px solid rgba(0,0,0,.15);
+    border-bottom: 1px solid rgba(0,0,0,.15);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #fff;
+  }
+
+.form-control:focus {
+   border-color: #FFC300;
+}
+
+.btn.btn-outline-light{
+    border: 2px solid #FFC300 ;
+    color: #FFC300 ;
+}
+
+/*===========================================================================================*/
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #3a115d;
+}
+
+#footer{
+    padding-top:25px;
+    padding-bottom:25px;
+    text-align: center;
+}
+
+.footer h5{
+    color: #FFC300 ;
+    text-align:center;
+}
+
+.footer p{
+    color: #d3a100 ;
+    text-align:center;
+}
+
+.footer-copyright{
+    background-color: #1d022c;
+    padding-bottom:5px;
+}
+
+/*===========================================================================================*/
+
+#video-card{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color:#3a115d;
+    border-radius: 5px;
+}
+
+#details-video-card{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color:#623a7a;
+    border-radius: 15px;
+    color: #ffffff ;
+}
+
+/*===========================================================================================*/
+
+.page-item .page-link{
+    background-color: #1d022c;
+    border-color: #1d022c;
+    color:  #FFC300;
+}
+
+.page-item.disabled>.page-link,
+.page-item[disabled]>.page-link{
+    background-color: #3a115d;
+    border-color: #3a115d;
+    color:  #FFC300;
+}
+
+.page-item:hover>.page-link{
+    background-color: #3a115d;
+    border-color: #3a115d;
+    color:  #FFC300;
+}
+
+.pagination.page-item:focus>.page-link,.pagination.page-item:active>.page-link {
+   outline-color: #FFC300;
+} 
