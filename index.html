@@ -14,58 +14,66 @@
 		
 		<script src="js/jquery.min.js"></script>
     		<script src="js/bootstrap4.js"></script>
+		
+		<script>
+		var prevScrollpos = window.pageYOffset;
+		window.onscroll = function() {
+			var currentScrollPos = window.pageYOffset;
+			if (prevScrollpos > currentScrollPos) {
+				document.getElementById("navbar").style.top = "0";
+				document.body.style.paddingTop = "";
+				} else {
+				document.getElementById("navbar").style.top = "-78px";
+			}
+			prevScrollpos = currentScrollPos;
+		} 
+		</script>
 	</head>
 	<body>
-		<div id="page-container">
-		    <div id="content-wrap">
-		        <nav class="navbar navbar-expand-lg navbar-dark">
-		        	<div class="container">
-		          		<a class="navbar-brand" href="index.html">Inicio</a>
-		            		<button onclick="myFunction()" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-		              			<span class="navbar-toggler-icon"></span>
-		            		</button>
-		            		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-		              			<ul class="navbar-nav mr-auto">
-					                <li class="nav-item dropdown">
-					                    <a id="h3" class="nav-link dropdown-toggle" href="galeria.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					                    Galeria
-					                    </a>
-					                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						                    <div class="container">
-						                        <div class="need-space"></div>
-							                        <div class="row justify-content-center">
-							                        	<div class="col-md-6"><h3>Galeria</h3><h6>Aqui iria una vista previa de galeria</div>
-							                        </div>
-						                    </div>
-					                    </div>
-					                </li>
-					                <li class="nav-item dropdown">
-					                    <a id="h3" class="nav-link dropdown-toggle" href="acercade.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					                    Acerca de
-					                    </a>
-					                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						                    <div class="container">
-						                        <div class="need-space"></div>
-							                        <div class="row justify-content-center">
-							                        	<div class="col-md-6"><h3>Acerca de</h3><h6>Información de los CSS</div>
-							                        </div>
-						                    </div>
-					                    </div>
-					                </li>
-		            			</ul>
-		        			</div>
-		    			</div>
-					</nav>
-					<div class="need-space"></div>
-					<div class="container text-center">
-						<div class="row justify-content-center">
-							<div class="col-md-5">
-								<img src="imagenes/imagen2.jpeg">
-								<h2>Bienvenido</h2>
-							</div>
+		<nav id="navbar" class="navbar navbar-default navbar-fixed-top">
+			<div class="header-top">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6 col-sm-6 col-4 header-top-left no-padding">
+							<a>Antonio Varas N°920, Oficina 702</a>
 						</div>
+						<div class="col-lg-6 col-sm-6 col-8 header-top-right no-padding">
+							<a href="tel:+56 452 291 12 79">+56 45 291 12 79</a>
+							<a href="mailto:rzschwar@gmail.com">rzschwar@gmail.com</a>				
+						</div>
+					</div>			  					
+				</div>
+			</div>
+			<div class="container">
+				<a class="navbar-brand" href="https://www.zsasesorias.cl"><img src="images/faviconZS.ico" width="auto" height="110%"></a>
+				<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<div class="collapse navbar-collapse navHeaderCollapse">
+				    <div class="nav navbar-nav navbar-right">
+					<li><a href="https://asesorias.zsasesorias.cl">Asesorías Empresariales</a></li>
+					<li><a href="https://inmobiliaria.zsasesorias.cl">Inmobiliaria</a></li>
+					<li><a href="https://capacitaciones.zsasesorias.cl">Capacitaciones</a></li>
+					<li class="active"><a href="https://allstore.zsasesorias.cl">All Store</a></li>
+					<li><a href="https://www.zsasesorias.cl/conocenos.php">Conócenos</a></li>
+					<li><a href="https://www.zsasesorias.cl/conocenos.php">Contáctanos</a></li>
+				    </div>
+				</div>
+			</div>
+			<div class="header-sub-top"></div>
+			<div id="navigation">
+				<div class="container">
+					<div id="responsive-nav">
+						<ul class="main-nav nav navbar-nav">
+							<li class="active"><a href="https://allstore.zsasesorias.cl">Inicio</a></li>
+							<li><a id="li-a" href="https://allstore.zsasesorias.cl/ofertas.php">Ofertas</a></li>
+							<li><a id="li-a" href="https://allstore.zsasesorias.cl/productos.php">Productos</a></li>
+						</ul>
 					</div>
 				</div>
 			</div>
+			</nav> 
 		</body>
 </html>
