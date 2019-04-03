@@ -5,7 +5,7 @@ body
 {	
     font: 400 15px Lato, sans-serif;
     padding-top: 180px;
-    background-image: url("../images/Main-Background.jpg"); 
+    background-image: url(""); 
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -50,7 +50,7 @@ body
 
 /* tagline */
 .tagline {
-	border-bottom:5px solid #3867d6;
+	border-bottom:5px solid ##e67e22;
 }
 .tagline_text {
   padding-bottom: 15px;
