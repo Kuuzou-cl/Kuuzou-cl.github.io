@@ -99,7 +99,7 @@ body
 }
 
 .main-nav>li>a:hover, .main-nav>li>a:focus, .main-nav>li.active>a {
-  color: #3867d6;
+  color: #f39c12;
   background-color: transparent;
 }
 
@@ -108,7 +108,7 @@ body
   display: block;
   width: 0%;
   height: 2px;
-  background-color: #5dade2;
+  background-color: #27ae60;
   -webkit-transition: 0.2s all;
   transition: 0.2s all;
 }
