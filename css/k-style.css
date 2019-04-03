@@ -28,7 +28,7 @@ body
 }
 
 #li-a{
-    color: #f39c12;
+    color: ##16a085;
 }
 
 #container-body{
@@ -99,7 +99,7 @@ body
 }
 
 .main-nav>li>a:hover, .main-nav>li>a:focus, .main-nav>li.active>a {
-  color: #f39c12;
+  color: ##16a085;
   background-color: transparent;
 }
 
@@ -355,7 +355,7 @@ NAVBAR Style
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: #3867d6 !important;
+    color: ##16a085 !important;
     background-color: #fff !important;
 }
 
