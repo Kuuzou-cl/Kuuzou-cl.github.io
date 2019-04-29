@@ -2,11 +2,12 @@
 Global basic Style *** carlobernucci@gmail.com ***
 *********************************************************************************************/
 .color{
-	background-color: blue;
+	background-color: lightblue;
 	border: #cdcdcd medium solid;
-	border-radius: 10px;
+	border-radius: 5px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
+	padding: 0px 0px 0px 0px;
 }
 
 body
