@@ -4,6 +4,7 @@ Global basic Style *** carlobernucci@gmail.com ***
 .color{
 	background-color: lightblue;
 	border: #cdcdcd medium solid;
+	margin-right: 0;
 }
 
 .no-gutters{
