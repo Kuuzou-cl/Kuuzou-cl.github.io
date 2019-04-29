@@ -1,6 +1,14 @@
 /*********************************************************************************************
 Global basic Style *** carlobernucci@gmail.com ***
 *********************************************************************************************/
+.color{
+	background-color: blue;
+	border: #cdcdcd medium solid;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
 body
 {	
     font: 400 15px Lato, sans-serif;
