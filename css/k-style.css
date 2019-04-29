@@ -6,6 +6,11 @@ Global basic Style *** carlobernucci@gmail.com ***
 	border: #cdcdcd medium solid;
 }
 
+.no-gutters{
+	 margin-left: 0;
+	margin-right: 0px;
+}
+
 body
 {	
     font: 400 15px Lato, sans-serif;
